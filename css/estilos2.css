@@ -1,0 +1,43 @@
+body{
+background-color:black;
+
+}
+
+.comentario{
+    background-color:#55f036;
+    width: 45%;
+
+}
+
+h2{
+
+color: white;
+font-family: oswald;
+font-size: 300%;
+text-align: center;
+}
+
+.img1{
+
+display: flex;
+margin-left: 35%;
+
+}
+
+
+
+
+.container,.container2,.container3{
+margin-left: 35%;
+margin-bottom: 10%;
+margin-top:2% ;
+
+
+}
+.input{
+
+
+border-radius: 10px;
+font-family: oswald light;
+font-size: 20px;
+}

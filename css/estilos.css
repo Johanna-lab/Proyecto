@@ -1,0 +1,184 @@
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    
+body{
+background-color: black;
+
+
+}
+
+    
+    
+    header{
+    
+    background-color: brown;
+    
+    
+    
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        background-color:#e30000;
+       font-size: 25px;
+       font-family: oswald;
+       color:white;
+      height: 120px;
+    
+    
+    }
+    
+    li{
+    
+    margin: 40px;
+    
+    
+    }
+
+    
+h1,h2{
+
+    font-family:oswald;
+    color: aliceblue;
+
+    
+    }
+
+    .texto{
+
+text-align: center;
+padding: 10%;
+margin-left: 5%;
+
+
+    }
+    p{
+    font-family:oswald light;
+    font-size: 20px;
+    color: aliceblue;
+    }
+    
+    
+    
+    
+    hgroup{
+    width: 400px;
+    padding: 30px;
+    justify-content: left;
+    
+    
+    }
+    
+    figure .imgredonda{
+    
+    width: 200px;
+    height:200px ;
+    border-radius: 150px;
+    
+    }
+    
+    figure{
+    
+    
+        padding: 40px;
+    }
+    
+    
+    figure, hgroup{
+    
+    
+        float: left;
+    }
+ 
+    section{
+
+        margin-left: 390px;
+        width: 1120px;
+        height: 200px;
+        
+        }
+            
+
+
+.container{
+    display: flex;
+    width: 100%;
+    padding: 20px; 
+    margin-right: 10%;
+
+}
+.caja{
+
+width: 45%;
+
+}
+
+h1{
+text-align: center;
+color: aliceblue;
+
+}
+
+.formulario{
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     
+        
+    
+}
+.text{
+
+width: 120%;
+padding: 5%;
+margin-bottom: 12px;
+border-radius: 10px;
+font-family: oswald light;
+font-size: 20px;
+border-color:red;
+color:black;
+
+}
+
+.button{
+
+    width: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    border-color:red;
+    font-family: oswald light;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+
+
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+        align-items: center;   
+             }
+
+
+
+body{
+
+background-color: brown;
+}
+
+h1{
+ color: coral;
+}
+}
